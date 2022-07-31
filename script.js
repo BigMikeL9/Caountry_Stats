@@ -44,7 +44,7 @@ const getCountryData = async function (country) {
   try {
     // rendering main Country
     const response = await fetch(
-      `https://restcountries.com/v3/name/{${country}}`
+      `https://restcountries.com/v3/name/${country}`
     );
 
     // manually creating an error to handle if fetch fails
